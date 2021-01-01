@@ -1,0 +1,191 @@
+@import url('./fonts.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background: url(../assets/sunjunbo_ar-2v_TLQlI.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+/*  Site start  */
+
+main .site-title{
+    display: flex;
+    justify-content: left;
+    padding-left: 150px;
+    padding-top: 375px;
+    color: white;
+    text-align: center;
+}
+
+main .site-title h1{
+    margin: 10px;
+    letter-spacing: 4px;
+    font-size: 75px;
+    font-family: Roboto;
+}
+
+main .site-title h3{
+    margin: 10px;
+    font-size: 30px;
+    font-family: ubuntu-medium-italic;
+}
+
+main .site-title p{
+    padding-top: 0px;
+    padding-bottom: 8px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+main .site-title .site-background .btn{
+    border: none;
+    border-radius: 3px;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgb(150, 27, 27);
+    margin-left: 5px;
+}
+
+main .site-title .site-background .btn2{
+    border: none;
+    border-radius: 3px;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+main .site-title .site-background .btn:hover{
+    background: transparent;
+    border: 2px solid rgb(150, 27, 27);
+    color: white;
+}
+
+main .site-title .site-background .btn2:hover{
+    background: transparent;
+    border: 2px solid rgb(150, 27, 27);
+    color: white;
+}
+
+
+/*  Navbar Start  */
+
+nav{
+    background: #1a1818;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul li i{
+    color: white;
+    padding: 8px;
+}
+nav ul a i:hover{
+    color: rgb(150, 27, 27);
+}
+
+lable.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+nav ul li  .nav-link{
+    color: rgb(247, 238, 238);
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+
+ .nav-link.active,  .nav-link:hover {
+    background: rgb(119, 27, 27);
+}
+    
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    lable.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+
+    }
+}
+
+@media (max-width: 1115px) {
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #272424;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    a.active, a:hover{
+        background: none;
+        color: rgb(150, 27, 27);
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+/*  Navbar End  */
+

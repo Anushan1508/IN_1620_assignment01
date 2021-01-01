@@ -1,0 +1,9 @@
+@font-face{
+    font-family: ubuntu-medium-italic;
+    src: url(../Fonts/Ubuntu-MediumItalic.ttf);
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(../Fonts/RobotoSlab-Medium.ttf);
+}
