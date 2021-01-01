@@ -7,3 +7,8 @@
     font-family: Roboto;
     src: url(../Fonts/RobotoSlab-Medium.ttf);
 }
+
+@font-face{
+    font-family: bree;
+    src: url(../Fonts/BreeSerif-Regular.ttf);
+}

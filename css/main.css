@@ -27,23 +27,25 @@ main .site-title{
 }
 
 main .site-title h1{
-    margin: 10px;
+    margin: 3px;
     letter-spacing: 4px;
     font-size: 75px;
     font-family: Roboto;
 }
 
 main .site-title h3{
-    margin: 10px;
+    margin: 5px;
     font-size: 30px;
     font-family: ubuntu-medium-italic;
 }
 
 main .site-title p{
     padding-top: 0px;
-    padding-bottom: 8px;
+    padding-bottom: 18px;
     text-align: justify;
     font-size: 20px;
+    height: auto;
+    width: 52vh;
 }
 
 main .site-title .site-background .btn{
@@ -85,6 +87,9 @@ nav{
     height: 80px;
     width: 100%;
 }
+nav .logo{
+    font-family: bree;
+}
 
 nav ul li i{
     color: white;
@@ -105,6 +110,8 @@ lable.logo{
 nav ul{
     float: right;
     margin-right: 50px;
+    font-family: bree;
+    letter-spacing: 2px;
 }
 
 nav ul li{
