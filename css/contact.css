@@ -11,7 +11,7 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(150, 27, 27);
+    background: #112d42;
 }
 
 section::before{
@@ -21,7 +21,7 @@ section::before{
     left: 0;
     width: 50%;
     height: 100%;
-    background: black;
+    background: #03a9f4;
 }
 
 section .container{
@@ -37,11 +37,75 @@ section .container .contactinfo{
     top: 40px;
     width: 350px;
     height: calc(100% - 80px);
-    background: rgb(150, 27, 27);
+    background: #0f3959;
     z-index: 1;
     padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0 20px 20px ;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+section .container .contactinfo h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+section .container .contactinfo .info{
+    position: relative;
+    margin: 20px 0;
+}
+
+section .container .contactinfo .info li{
+    position: relative;
+    display: flax;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+section .container .contactinfo .info li span:nth-child(1){
+    width: 30px;
+    min-width: 30px;
+
+}
+
+section .container .contactinfo .info li span:nth-child(1) i{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+section .container .contactinfo .info li span:nth-child(2){
+    color: white;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+section .container .contactinfo .info li:hover span:nth-child(1) i,
+section .container .contactinfo .info li:hover span:nth-child(2){
+    opacity: 1;
+
+}
+
+section .container.contactinfo li{
+    position: relative;
+    display: inline;
+}
+
+section .container .contactinfo .sci  a{
+    list-style: none;
+    color: white;
+    opacity: 0.5;
+}
+
+section .container .contactinfo .sci li a:hover{
+    opacity: 1;
+}
+
+#soci {
+    color: black;
+    display: inline;
 }

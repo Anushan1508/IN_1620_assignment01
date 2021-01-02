@@ -86,6 +86,9 @@ nav{
     background: #1a1818;
     height: 80px;
     width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
 }
 nav .logo{
     font-family: bree;
