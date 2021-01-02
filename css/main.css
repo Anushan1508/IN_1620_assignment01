@@ -149,7 +149,7 @@ nav ul li  .nav-link{
     display: none;
 }
 
-@media (max-width: 952px) {
+@media (max-width: 1165px) {
     lable.logo{
         font-size: 30px;
         padding-left: 50px;
@@ -161,7 +161,7 @@ nav ul li  .nav-link{
     }
 }
 
-@media (max-width: 1115px) {
+@media (max-width: 1195px) {
     .checkbtn{
         display: block;
     }
