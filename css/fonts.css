@@ -12,3 +12,8 @@
     font-family: bree;
     src: url(../Fonts/BreeSerif-Regular.ttf);
 }
+
+@font-face{
+    font-family: heebo;
+    src: url(../Fonts/Heebo-VariableFont_wght.ttf);
+}
