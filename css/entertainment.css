@@ -1,0 +1,116 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background: black;
+    color: white;
+  }
+  
+  .entainment-only{
+      display: inline-block;
+      padding-top: 20%;
+  }
+  
+  .entainment-only a {
+    text-decoration: none;
+    margin: 1rem 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    letter-spacing: 1px;
+  }
+  
+  .entainment-only p {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+  
+  section {
+    max-width: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40%;
+    padding: 30px;
+  }
+  
+  .entainment-only h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 1.825rem;
+    margin: 1.3rem 0;
+  }
+  
+  .entainment-lead {
+    max-width: auto;
+    margin: 1rem auto 1.5rem;
+    font-size:larger;
+    text-align: justify;
+  }
+  
+  .entainment a {
+    color: #5b7abb;
+    display: block;
+  }
+  
+  .entainment h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #56ceba;
+    font-size: 1.3rem;
+    margin: 1rem 0 0.6rem;
+  }
+  
+  .entainments-grid {
+    display: flex;
+    align-items: center;
+  }
+  
+  .entainment {
+    background: rgb(66, 63, 63);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #e7e7e7;
+    transition: all 0.3s ease;
+  }
+  
+  .entainment:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  .entainment3 i,
+  .entainment3 h4,
+  .entainment3 .cta {
+    color: rgb(228, 96, 96);
+  }
+  
+  .entainment3:hover {
+    border: 2px solid rgb(150, 27, 27);
+  }
+  
+  .serventainmentice .cta span {
+    font-size: 0.6rem;
+  }
+  
+  .entainment > * {
+    flex: 1 1 100%;
+  }
+  
+  .entainment .cta {
+    align-self: flex-end;
+  }
