@@ -198,6 +198,63 @@ nav ul li  .nav-link{
     #check:checked ~ ul{
         left: 0;
     }
+
+    main .site-title h1{
+        margin: 0.003%;
+        letter-spacing: 0.4%;
+        font-size: 200%;
+        font-family: Roboto;
+    }
+
+    main .site-title{
+        display: flex;
+        justify-content: left;
+        padding-top: 50%;
+        padding-left: -10%;
+        color: white;
+        text-align: center;
+    }
+
+    main .site-title p{
+        padding: auto;
+        text-align: justify;
+        font-size: 120%;
+        height: 60%;
+        width: 75%;
+        margin-top: 5%;
+        margin-left: 13%;
+        margin-bottom: -5%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    main .site-title .site-background .btn2{
+        border: none;
+        border-radius: 3px;
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-right: 5px;
+        margin-bottom: 4%;
+    }
+
+    body {
+        font-family: cursive;
+        background: url(../assets/newphoneI.jpg) no-repeat;
+        background-size: cover;
+        height: 120vh;
+        width: auto;
+    }
+
+    main .site-title h3{
+        font-size: 100%;
+    }
+
+    nav .logo{
+        font-family: bree;
+        font-size: 150%;
+    }
+    
 }
 
 /*  Navbar End  */
