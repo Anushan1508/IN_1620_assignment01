@@ -141,5 +141,19 @@ body{
 
         width: 60%;
       }
+  }
 
+  @media (max-width: 1195px) {
+    .container{
+      margin-top: 20%;
+    }
+
+    body {
+      font-family: cursive;
+      background: url(../assets/newphoneI.jpg);
+      background-size: cover;
+      height: 120vh;
+      width: auto;
+  }
+  }
   }

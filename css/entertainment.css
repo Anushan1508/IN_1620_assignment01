@@ -114,3 +114,21 @@
   .entainment .cta {
     align-self: flex-end;
   }
+
+  @media (max-width: 1195px) {
+    .entainments-grid {
+      display:block
+    }
+
+    .entainment-only h3{
+      font-size: 150%;
+    }
+
+    body {
+      font-family: cursive;
+      background: url(../assets/newphoneI.jpg);
+      background-size: cover;
+      height: 120vh;
+      width: auto;
+  }
+  }
