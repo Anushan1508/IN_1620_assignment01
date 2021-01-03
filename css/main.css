@@ -21,32 +21,34 @@ body {
 main .site-title{
     display: flex;
     justify-content: left;
-    padding-left: 150px;
-    padding-top: 375px;
+    padding-top: 35%;
+    padding-left: -10%;
     color: white;
     text-align: center;
 }
 
 main .site-title h1{
-    margin: 3px;
-    letter-spacing: 4px;
-    font-size: 75px;
+    margin: 0.003%;
+    letter-spacing: 0.4%;
+    font-size: 350%;
     font-family: Roboto;
 }
 
 main .site-title h3{
-    margin: 5px;
+    margin: 0.5%;
     font-size: 30px;
     font-family: ubuntu-medium-italic;
+    margin-top: -5%;
 }
 
 main .site-title p{
-    padding-top: 0px;
-    padding-bottom: 18px;
+    padding: auto;
     text-align: justify;
-    font-size: 20px;
-    height: auto;
-    width: 52vh;
+    font-size: 120%;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
 }
 
 main .site-title .site-background .btn{
