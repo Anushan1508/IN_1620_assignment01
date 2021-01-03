@@ -12,7 +12,8 @@ body {
     font-family: cursive;
     background: url(../assets/sunjunbo_ar-2v_TLQlI.jpg) no-repeat;
     background-size: cover;
-    height: calc(100vh - 80px);
+    height: 120vh;
+    width: auto;
 }
 
 /*  Site start  */
