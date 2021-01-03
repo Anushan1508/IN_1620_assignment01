@@ -58,7 +58,12 @@ body{
       border:2px solid rgb(150, 27, 27);
       color: rgb(150, 27, 27);
     }
-     
+    
+    .contact-form .add .form-info:hover{
+      cursor: pointer;
+      color: rgb(150, 27, 27);
+    }
+
       .contact-form{
         display: grid;
         grid-template-columns: auto auto;
