@@ -95,6 +95,7 @@ nav{
 }
 nav .logo{
     font-family: bree;
+    color: white;
 }
 
 nav ul li i{
@@ -105,7 +106,7 @@ nav ul a i:hover{
     color: rgb(150, 27, 27);
 }
 
-lable.logo{
+.logo{
     color: white;
     font-size: 35px;
     line-height: 80px;
