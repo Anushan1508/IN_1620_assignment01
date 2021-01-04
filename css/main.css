@@ -154,7 +154,7 @@ nav ul li  .nav-link{
 }
 
 @media (max-width: 1165px) {
-    lable.logo{
+    .logo{
         font-size: 30px;
         padding-left: 50px;
     }
